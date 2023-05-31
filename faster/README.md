@@ -33,7 +33,8 @@
 * 训练好的模型参数 链接: https://pan.baidu.com/s/19CVbWoJkBN1ASLLRY2pG4g?pwd=33gb (提取码: 33gb)，下载后将文件覆盖save_weights文件夹
 
 ### 目标检测
-* 选择不在VOC2012数据集中，但拥有其类别的三张测试图像：测试图像已存放在test_images中，命名为test1.jpg,test2.jpg,test3.jpg,目标检测结果图片名称为 f'{net}_test.jpg'
+* 选择不在VOC2012数据集中，但拥有其类别的三张测试图像进行目标检测：
+* 测试图像已存放在test_images中，命名为test1.jpg,test2.jpg,test3.jpg,目标检测结果图片名称为 f'{net}_test.jpg'
 
 运行下列代码可以使用训练好的模型直接在测试图像上进行目标检测
 ```
