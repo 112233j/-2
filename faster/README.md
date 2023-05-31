@@ -15,6 +15,7 @@
 
 * `train_fasterrcnn_res50_fpn.py`, `train_FCOS_res50_fpn.py`训练的主体文件
 * `predict_FCOS.py`,`predict_fasterrcnn.py` 用于输出目标检测结果，并以图片形式保存在test_images文件夹中
+* `proposals.py` 用于绘制第一阶段的proposal
 * `my_dataset.py`, `my_transform.py` VOC2012数据集的读取与预处理
 * `backbone` 训练时用到的backbone，主要是resnet50系列
 * `network_files` Faster R-CNN和FCOS模型，结构与pytorch官方一致
