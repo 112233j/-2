@@ -27,7 +27,7 @@
 ## Run experiments
 ### 准备数据与预训练模型
 * 下载代码至本地 
-* Pascal VOC2012 train/val数据集下载地址：http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar， 并解压到当前文件夹
+* Pascal VOC2012 train/val数据集下载地址：http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar 并解压到当前文件夹
 * MobileNetV2: https://download.pytorch.org/models/mobilenet_v2-b0353104.pth 下载后重命名为`mobilenet_v2.pth`，然后放到`bakcbone`文件夹下
 * 训练好的模型参数 链接: https://pan.baidu.com/s/19CVbWoJkBN1ASLLRY2pG4g?pwd=33gb (提取码: 33gb)，下载后将文件覆盖save_weights文件夹
 
