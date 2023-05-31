@@ -48,7 +48,7 @@ python predict_FCOS.py
 python proposals.py
 ```
 
-### 自定义训练
+### 训练模型
 运行下列代码可以训练Faster R-CNN 和 FCOS
 ```
 python train_fasterrcnn_res50_fpn.py
